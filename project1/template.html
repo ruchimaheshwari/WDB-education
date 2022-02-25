@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./template.css">
+    <title>Ruchi Maheshwari's Personal Website</title>
+</head>
+<body>
+    <div class="splash-page">
+
+        <div class="whiteTopLeft">
+            <div class="logo">
+                <img src="./logo.png" id="logo">
+            </div>
+            <div class="headline">
+                <h1>Ruchi Maheshwari</h1>
+                <p>Electrical Engineering and Computer Science student with Data Science minor @ UC Berkeley</p>
+                <button class="contactButton" onclick="document.getElementById('contact-bar').scrollIntoView();">contact me</button>
+            </div>
+        </div>
+
+        <div class="blackTopRight">
+            <div class="nav">
+                <div class="nav-button">
+                    About
+                </div>
+                <div class="nav-button">
+                    <a href="#bottom" style="color: white; text-decoration: none;">Projects</a>
+                </div>
+                <div class="nav-button">
+                    <a href="https://drive.google.com/file/d/1R3RxFjieI7-FMvSpgaYfETBjnw4XsFOj/view?usp=sharing" target="_blank" style="color: white; text-decoration: none;">Resume</a>
+                </div>
+            </div>
+
+            <img src="./self.JPG" class="selfImage">
+            <div class=horizPaddingBox></div>
+
+        </div>
+        
+    </div>
+
+    <div class="white-divider">asdfasdf</div>
+
+    <div id="bottom">
+        <div class="proj-col">
+            <div class="top-left-box">
+                <div class="proj-name-box">
+                    <p class="proj-name">Berkeley ANova</p>
+                </div>
+                <div class="proj-name-box">
+                    <p class="proj-name">Data 100 AI</p>
+                </div>
+                <div class="proj-name-box">
+                    <p class="proj-name">Tile Intern</p>
+                </div>
+            </div>
+
+            <div class="bottom-left-box">
+                <div class="trio">
+                    <div class="image-box">
+                        <img src="./anova.png" class="image">
+                    </div>
+                    <div class="trio-right">
+                        <div class="proj-name-box">
+                            <p class="proj-name">Berkeley ANova</p>
+                        </div>
+                        <div class="description-box">
+                            <p class="description">ANova is a student organization that seeks to increase accessibility 
+                                to the tech space by providing computer science mentorship to under-resourced middle and 
+                                high schools around the Bay Area.</p>
+                            <a href="https://www.berkeleyanova.org/" class="description" target="_blank">Learn More!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="proj-col">
+            <div class="top-right-box">
+                <div class="trio">
+                    <div class="image-box">
+                        <img src="./ds.png" class="image">
+                    </div>
+                    <div class="trio-right">
+                        <div class="proj-name-box">
+                            <p class="proj-name">Data 100 AI</p>
+                        </div>
+                        <div class="description-box">
+                            <p class="description">I assist in lab and office hours for Data 100 at UC Berkeley!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bottom-right-box">
+                <div class="trio">
+                    <div class="image-box">
+                        <img src="./tile.png" id="tile-image">
+                    </div>
+                    <div class="trio-right">
+                        <div class="proj-name-box">
+                            <p class="proj-name">Tile Intern</p>
+                        </div>
+                        <div class="description-box">
+                            <p class="description">I worked on the Tile Lifetime Tester, a program designed to test the 
+                                failure characteristics of different batches of Tiles, such as battery lifetime issues or 
+                                problems with Private ID rotation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-bar">
+        <a class="icon" href="https://www.linkedin.com/in/ruchimaheshwari0/" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a class="icon" href="https://www.instagram.com/ruchi_mahesh/?hl=en" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a class="icon" href="https://github.com/ruchimaheshwari" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+        </a>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.splash-page {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color:white;
+}
+
+.whiteTopLeft {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 65%;
+    height: 100%;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2.5%;
+    padding-right: 2.5%;
+    width: 100%;
+}
+
+#logo {
+    height: 80px;
+}
+
+.headline {
+    padding-left: 10%;
+    padding-right: 2.5%;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.contactButton {
+    background: #2C2C2C;
+    border-radius: 15px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 100%;
+}
+
+.blackTopRight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+    background-color: #2C2C2C;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #2C2C2C;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+  
+/* For the aesthetics */
+.nav-button {
+    color: white;
+    font-size: 20px;
+}
+
+.selfImage {
+    height: 400px;
+    padding-bottom: 10%;
+}
+
+/* BREAK BREAK BREAK BREAK BREAK */
+
+.white-divider {
+    width: 100%;
+    height: 2%;
+    color: white;
+}
+
+/* BREAK BREAK BREAK BREAK BREAK */
+
+#bottom {
+    display: flex;
+    flex-wrap: flex;
+    width: 100%;
+    height: 60%;
+    background-color: #2C2C2C;
+}
+
+.proj-col {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+}
+
+.top-left-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    padding-top: 8%;
+    padding-left: 15%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+.proj-name-box {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    margin-bottom: 2% /* MAKE SURE TO ADD THIS EVERYWHERE */
+}
+
+.proj-name {
+    color: #2C2C2C;
+    font-size: 25px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.bottom-left-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 3%;
+    padding-bottom: 8%;
+}
+
+.top-right-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    padding-top: 8%;
+    padding-right: 15%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+}
+
+.bottom-right-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    padding-top: 2%;
+    padding-right: 15%;
+    padding-left: 3%;
+    padding-bottom: 8%;
+}
+
+.trio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 2%;
+
+}
+
+.image-box {
+    display: flex;
+    width: 48%;
+    /* height: 100%; */
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 3%;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    height: 262px;
+    /* width: 100%; */
+    align-self: center;
+}
+
+#tile-image {
+    display: flex;
+    /* height: 262px; */
+    width: 90%;
+    padding-top: 36%;
+    padding-bottom: 36%;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-self: center;
+}
+
+.trio-right {
+    display: flex;
+    width: 49%;
+    flex-wrap: wrap;
+    /* height: 100%; */
+}
+
+.description-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    height: 81%;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.description {
+    color: #2C2C2C;
+    font-size: 20px;
+    align-self: center;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+/* BREAK BREAK BREAK BREAK BREAK */
+
+#contact-bar {
+    display: flex;
+    background-color: #2C2C2C;
+    height: 5%;
+    justify-content: center;
+}
+
+.icon {
+    color: #AAAAAA;
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 3%;
+}
